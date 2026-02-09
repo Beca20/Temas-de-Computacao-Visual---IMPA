@@ -3,11 +3,9 @@ from src.base import BaseScene, Color
 from src.shapes import ImplicitFunction
 
 
-ANGLE_DEG = 30.0  # <-- mude: 0, 15, 30, 45, 90...
+ANGLE_DEG = 30.0  
 ANGLE_RAD = math.radians(ANGLE_DEG)
 
-# Centro da figura (use o centro da janela que você está usando no raster)
-# Ex.: se você usa -w -1.5 1.8 -1.8 2.8, o centro é (0.15, 0.5)
 CENTER = (0.15, 0.5)
 
 
@@ -51,8 +49,6 @@ class Scene(BaseScene):
                 - 0.029*x*(y**3)
                 + 0.072*(y**4)
             )
-
-        # Para girar a figura por +theta, aplicamos -theta no ponto (inverse mapping)
         def f_rot(p):
             p_unrot = rotate_point(p, CENTER, -ANGLE_RAD)
             return f(p_unrot)
