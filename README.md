@@ -1,9 +1,20 @@
-# Temas de Computação Visual - IMPA
-Este repositório refere-se à disciplina de Temas de Computação Visual, do IMPA, e tem como intuito a realização das atividades propostas.
+# Raster
 
-## Sobre o conteúdo
+Na linha de comando execute os seguintes comandos (só é necessário fazer isso uma vez):
 
-Dentro do repositório, há uma pasta que contém o arquivo referente à **Modelagem Geométrica**.  
-No entanto, o conteúdo também pode ser acessado via cloud por meio do link abaixo:
+```bash
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
 
-🔗 https://www.wolframcloud.com/obj/rebecavitoria9124/Published/Modelagem-Geometrica.nb
+Sempre ative o ambiente virtual antes de executar qualquer script Python.
+```bash
+source env/bin/activate
+```
+
+Para desativar o ambiente virtual, use o comando:
+
+```bash
+deactivate
+``` 
