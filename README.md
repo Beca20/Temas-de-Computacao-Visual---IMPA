@@ -3,7 +3,7 @@ Este repositório refere-se à disciplina de Temas de Computação Visual, do IM
 
 ## Sobre o conteúdo
 
-Dentro do repositório, há uma pasta que contém o arquivo referente à **Modelagem Geométrica**.  
+Dentro do repositório, há uma pasta que contém o arquivo referente à **Modelagem Geométrica**, **Rasterização** e **Raytracer**.  
 No entanto, o conteúdo também pode ser acessado via cloud por meio do link abaixo:
 
 🔗 https://www.wolframcloud.com/obj/rebecavitoria9124/Published/Modelagem-Geometrica.nb
